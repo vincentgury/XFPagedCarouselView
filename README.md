@@ -22,6 +22,10 @@ Create paged carousel views from shared code for your mobile apps!
 |Windows 10 UWP|<img alt="No" src="https://raw.githubusercontent.com/vincentgury/Resources/master/images/ko.png" width="20">||
 |Xamarin.Mac|<img alt="No" src="https://raw.githubusercontent.com/vincentgury/Resources/master/images/ko.png" width="20">||
 
+### Dependencies (Nuget)
+
+* Xamarin.Forms.CarouselView >= 2.3.0-pre2
+* VG.XFShapeView >= 1.0.4
 
 ### PagedCarouselView properties
 
