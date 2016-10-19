@@ -13,7 +13,7 @@
     <description>
 	XFPagedCarouselView for Xamarin.Forms provides a custom ContentView allowing you to display paged carousel views in Android and iOS apps.
 	
-	Support for square/rectangle, rounded square/rectangle, circle, heart, oval triangle and star page indicator.
+	Support for square/rectangle, rounded square/rectangle, circle, heart, oval, triangle and star page indicator.
 	
 	Sample available on GitHub (https://github.com/vincentgury/XFPagedCarouselView)
 	</description>
