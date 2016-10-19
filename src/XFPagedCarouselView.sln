@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPagedCarouselView", "XFPagedCarouselView\XFPagedCarouselView.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPagedCarouselView.Droid", "XFPagedCarouselView.Droid\XFPagedCarouselView.Droid.csproj", "{85E370B8-5B61-4804-B25D-49EA424574DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFPagedCarouselView.iOS", "XFPagedCarouselView.iOS\XFPagedCarouselView.iOS.csproj", "{1743B64E-D687-4B31-81D6-2C460EE1B201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E370B8-5B61-4804-B25D-49EA424574DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E370B8-5B61-4804-B25D-49EA424574DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E370B8-5B61-4804-B25D-49EA424574DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E370B8-5B61-4804-B25D-49EA424574DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1743B64E-D687-4B31-81D6-2C460EE1B201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1743B64E-D687-4B31-81D6-2C460EE1B201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1743B64E-D687-4B31-81D6-2C460EE1B201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1743B64E-D687-4B31-81D6-2C460EE1B201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

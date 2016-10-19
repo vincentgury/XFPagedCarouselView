@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>VG.XFPagedCarouselView</id>
+    <version>1.0.0-pre</version>
+	<title>Paged carousel view for Xamarin.Forms</title>
+    <authors>Vincent Gury</authors>
+    <owners>Vincent Gury</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/vincentgury/XFPagedCarouselView/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/vincentgury/XFPagedCarouselView</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/vincentgury/XFPagedCarouselView/master/art/icon.png</iconUrl>
+    <description>
+	XFPagedCarouselView for Xamarin.Forms provides a custom ContentView allowing you to display paged carousel views in Android and iOS apps.
+	
+	Support for square/rectangle, rounded square/rectangle, circle, heart, oval triangle and star page indicator.
+	
+	Sample available on GitHub (https://github.com/vincentgury/XFPagedCarouselView)
+	</description>
+	<summary>Cross platform paged carousel view for Xamarin.Forms (iOS &amp; Android)</summary>
+    <releaseNotes>See Changelog: https://github.com/vincentgury/XFPagedCarouselView/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>xamarin forms xamarinforms xamarin.forms.carousel view carouselview paged pagedcarouselview ios android</tags>
+    <dependencies>
+		<dependency id="Xamarin.Forms.CarouselView" version="2.3.0-pre2" />
+		<dependency id="VG.XFShapeView" version="1.0.4" />
+    </dependencies>
+	  </metadata>
+    <files>
+        <!--Core-->
+        <file src="..\src\XFPagedCarouselView\bin\Release\XFPagedCarouselView.dll" target="lib\portable-net45+wp80+win8+wpa81\XFPagedCarouselView.dll" />
+        <file src="..\src\XFPagedCarouselView\bin\Release\XFPagedCarouselView.pdb" target="lib\portable-net45+wp80+win8+wpa81\XFPagedCarouselView.pdb" />
+		<file src="..\src\XFPagedCarouselView\bin\Release\XFPagedCarouselView.xml" target="lib\portable-net45+wp80+win8+wpa81\XFPagedCarouselView.xml" />
+		
+        <!--Xamarin.Android-->
+        <file src="..\src\XFPagedCarouselView.Droid\bin\Release\XFPagedCarouselView.Droid.dll" target="lib\MonoAndroid10\XFPagedCarouselView.Droid.dll" />
+        <file src="..\src\XFPagedCarouselView.Droid\bin\Release\XFPagedCarouselView.Droid.pdb" target="lib\MonoAndroid10\XFPagedCarouselView.Droid.pdb" />
+        
+        <!--Xamarin.iOS -->
+        <file src="..\src\XFPagedCarouselView.iOS\bin\Release\XFPagedCarouselView.iOS.dll" target="lib\Xamarin.iOS10\XFPagedCarouselView.iOS.dll" />
+        <file src="..\src\XFPagedCarouselView.iOS\bin\Release\XFPagedCarouselView.iOS.pdb" target="lib\Xamarin.iOS10\XFPagedCarouselView.iOS.pdb" />
+    </files>
+
+</package>

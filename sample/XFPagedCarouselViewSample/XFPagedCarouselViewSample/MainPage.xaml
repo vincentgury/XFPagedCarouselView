@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xfpcv="clr-namespace:XFPagedCarouselView;assembly=XFPagedCarouselView"
+             x:Class="XFPagedCarouselViewSample.MainPage">
+  <xfpcv:PagedCarouselView x:Name="PagedCarouselView" VerticalOptions="FillAndExpand" PagerStyle="Circle">
+    <xfpcv:PagedCarouselView.ItemTemplate>
+      <DataTemplate>
+        <StackLayout BackgroundColor="{Binding BackgroundColor}">
+          <Label Text="{Binding Title}" VerticalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White" FontSize="Large"></Label>
+        </StackLayout>
+      </DataTemplate>
+    </xfpcv:PagedCarouselView.ItemTemplate>
+  </xfpcv:PagedCarouselView>
+</ContentPage>

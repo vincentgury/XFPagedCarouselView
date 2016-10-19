@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             xmlns:local="clr-namespace:XFPagedCarouselView;assembly=XFPagedCarouselView"
+             x:Class="XFPagedCarouselView.PagedCarouselView"
+             x:Name="ContentView">
+  <AbsoluteLayout x:Name="MainLayout">
+    <forms:CarouselView x:Name="CarouselView" />
+    <local:PagerView x:Name="CarouselViewPager"
+                             BindingContext="{x:Reference CarouselView}" 
+                             Position="{Binding Position}"
+                             ItemsSource="{Binding ItemsSource}"
+                             IsVisible="{Binding Source={x:Reference ContentView}, Path=ShowPager}"
+                             Margin="0, 0, 0, 10"
+    />
+  </AbsoluteLayout>
+</ContentView>
