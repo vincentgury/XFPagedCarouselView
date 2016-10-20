@@ -10,7 +10,27 @@ Create paged carousel views from shared code for your mobile apps!
 * Add a PagedCarouselView to your page, set its properties (don't forget to set a DataTemplate) and see the result.
 * Follow this quick guide for deeper understanding.
 
-**Platform Support**
+
+### iOS Extra setup
+
+Add Renderers.Init(); to the AppDelegate like so:
+
+```csharp
+using XFPagedCarouselView.iOS;
+[...]
+public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+{
+    global::Xamarin.Forms.Forms.Init();
+
+    Renderers.Init();
+
+    LoadApplication(new App());
+
+    return base.FinishedLaunching(app, options);
+}
+```
+
+###Platform Support
 
 |Platform|Supported|Version|
 | ------ | :-------: | :-----: |
@@ -52,7 +72,7 @@ You can draw a box with a content Label, responding to touch like so:
 </ContentPage>
 ```
 
-## Screenshots
+### Screenshots
 **Android**
 
 
@@ -71,7 +91,7 @@ You can draw a box with a content Label, responding to touch like so:
 &nbsp;&nbsp;
 <img alt="iOS" src="https://raw.githubusercontent.com/vincentgury/XFPagedCarouselView/master/art/screenshots/screenshot-ios-3.png" width="200" />
 
-## Contributing
+### Contributing
 
 Contributions are absolutely welcome. 
 
@@ -83,10 +103,10 @@ Contributions are absolutely welcome.
 
 Thank you for your suggestions!
 
-## Credits
+### Credits
 
 A lot of thanks to ***Adam Pedley*** for inspiring me with his blog post: https://xamarinhelp.com/carousel-view-page-indicators
 
-## Copyright
+### Copyright
 
 &copy; 2016 Vincent Gury
