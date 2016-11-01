@@ -84,7 +84,7 @@ namespace XFPagedCarouselView
         #endregion
 
         /// <summary>
-        /// Default construction
+        /// Default constructor
         /// </summary>
         public PagerView()
         {

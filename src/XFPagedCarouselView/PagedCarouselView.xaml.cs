@@ -10,7 +10,7 @@ namespace XFPagedCarouselView
     public partial class PagedCarouselView : ContentView
     {
 #pragma warning disable 1591
-        public static readonly BindableProperty IsPagedProperty = BindableProperty.Create(nameof(ShowPager), typeof (bool), typeof (PagedCarouselView), true, BindingMode.TwoWay);
+        public static readonly BindableProperty ShowPagerProperty = BindableProperty.Create(nameof(ShowPager), typeof (bool), typeof (PagedCarouselView), true, BindingMode.TwoWay);
 #pragma warning restore 1591
 
         /// <summary>
@@ -18,8 +18,8 @@ namespace XFPagedCarouselView
         /// </summary>
         public bool ShowPager
         {
-            get { return (bool)this.GetValue(IsPagedProperty); }
-            set { this.SetValue(IsPagedProperty, value); }
+            get { return (bool)this.GetValue(ShowPagerProperty); }
+            set { this.SetValue(ShowPagerProperty, value); }
         }
 
         /// <summary>
@@ -68,6 +68,15 @@ namespace XFPagedCarouselView
             {
                 this.CarouselView.ItemTemplate = value;
             }
+        }
+
+        /// <summary>
+        /// Get or sets the current position - default value is 0
+        /// </summary>
+        public int Position
+        {
+            get { return this.CarouselViewPager.Position; }
+            set { this.CarouselViewPager.Position = value; }
         }
 
         /// <summary>
